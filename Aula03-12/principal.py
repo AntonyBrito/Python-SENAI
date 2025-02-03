@@ -28,8 +28,12 @@ def main():
             b = float(input("Digite o segundo número: "))
             resultado = calculadora.divisao(a, b)
             print(f"O resultado da divisão é: {resultado}")
-        
+
         elif escolha == '5':
+            a = float(input("Digite um número: "))
+            calculadora.tabuada(a)
+        
+        elif escolha == '6':
             print("Saindo...")
             break
         
