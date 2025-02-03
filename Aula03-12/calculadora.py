@@ -1,11 +1,19 @@
-def soma(n1, n2):
-    return n1 + n2
+def soma(a, b):
+    return a + b
 
-def subtracao(n1, n2):
-    return n1 - n2
+def subtracao(a, b):
+    return a - b
 
-def multiplicacao(n1, n2):
-    return n1 * n2
+def multiplicacao(a, b):
+    return a * b
 
-def divisao(n1, n2):
-    return n1 / n2
+def divisao(a, b):
+    return a / b
+
+def exibir_menu():
+    print("\nEscolha uma operação:")
+    print("1 - Soma")
+    print("2 - Subtração")
+    print("3 - Multiplicação")
+    print("4 - Divisão")
+    print("5 - Sair")
